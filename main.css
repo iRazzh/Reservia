@@ -25,7 +25,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    border: 1px black solid; /* bordure test*/
+    border: 1px black transparent; /* bordure test*/
 }
 
 #logo img
@@ -59,8 +59,8 @@ nav a
 nav a:hover
 {
     color: #0065FC;
-    border-top: 1px solid #0065FC;
-    padding-top: 23px;
+    border-top: 2px solid #0065FC;
+    padding-top: 24px;
 }
 
 .inscription
@@ -69,16 +69,16 @@ nav a:hover
     color: #0065FC;
 }
 
-/* Première Section */
+/* First Section */
 
 .firstSection
 {
-    border: 1px black solid; /* bordure test*/
+    border: 1px black transparent; /* bordure test*/
     padding-top: 15px;
     margin-left: 3%;
 }
 
-/* Première Section -> Rechercher */
+/* First Section -> Research */
 
 .found h1
 {
@@ -105,10 +105,8 @@ nav a:hover
 
 .mapMarker
 {
-    width: 4rem;
-    height: 1.5em;
+    width: 2em;
     text-align: center;
-    justify-content: center;
 }
 
 .mapMarker em
@@ -119,7 +117,7 @@ nav a:hover
 #myResearch
 {
     border: 1px #F2F2F2 solid;
-    padding-left: 15px;
+    padding-left: 8px;
 }
 
 ::placeholder
@@ -137,12 +135,12 @@ nav a:hover
     font-weight: bold;
 }
 
-/* Première Section -> Filtres */
+/* First Section -> Filters */
 
 .filter
 {
     display: flex;
-    margin-top: 25px;
+    margin-top: 3%;
     margin-bottom: 5px;
 
 }
@@ -152,73 +150,113 @@ nav a:hover
     font-size: 1.1em;
 }
 
+p
+{
+    margin: 0;
+}
+
 .eco 
 {
-    border: 2px solid black;
+    border: 2px solid #F2F2F2;
     border-radius: 50px;
-    padding-right: 0.5em;
-    margin: 0;
+    padding-right: 0.8em;
+    width: fit-content;
+    height: 42px;
+    margin-right: 10px;
+    margin-left: 2%;
+    font-weight: bold;
+    text-align: center;
 }
 
 .fa-money-bill-wave
 {
-    border: 2px solid red;
     border-radius: 50%;
     padding: 0.8em;
     background-color: #DEEBFF;
-    color: blue;
+    color: #0065FC;
 }
 
 .fam
 {
-    border: 2px solid black;
-    width: fit-content;
+    border: 2px solid #F2F2F2;
     border-radius: 50px;
-    padding-right: 0.5em;
-    margin: 0;
+    padding-right: 0.8em;
+    height: 42px;
+    margin-right: 10px;
+    margin-left: 15px;
+    font-weight: bold;
 }
 
 .fa-child
 {
-    border: 2px solid red;
     border-radius: 50%;
-    padding: 1.0em;
+    padding: 0.8em;
+    padding-right: 1em;
+    padding-left: 1em;
     background-color: #DEEBFF;
-    color: blue;
+    color:#0065FC;
 }
 
 .romance
 {
-    border: 2px solid black;
-    width: fit-content;
+    border: 2px solid #F2F2F2;
     border-radius: 50px;
-    padding-right: 0.5em;
-    margin: 0;
+    padding-right: 0.8em;
+    height: 42px;
+    margin-right: 10px;
+    margin-left: 15px;
+    font-weight: bold;
 }
 
 .fa-heart
 {
-    border: 2px solid red;
     border-radius: 50%;
     padding: 0.8em;
     background-color: #DEEBFF;
-    color: blue;
+    color: #0065FC;
 }
 
 .dog
 {
-    border: 2px solid black;
-    width: fit-content;
+    border: 2px solid #F2F2F2;
     border-radius: 50px;
-    padding-right: 0.5em;
-    margin: 0;
+    padding-right: 0.8em;
+    height: 42px;
+    margin-right: 10px;
+    margin-left: 15px;
+    font-weight: bold;
 }
 
 .fa-dog
 {
-    border: 2px solid red;
-    border-radius: 50%;
+    border-radius: 50%; 
     padding: 0.8em;
-    background-color:#DEEBFF;
-    color: blue;
+    background-color: #DEEBFF;
+    color:#0065FC;
+}
+
+/* First Section -> Informations */
+
+.infos
+{
+    display: flex;
+    margin-top: 2%;
+}
+
+.infos p
+{
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.fa-info
+{
+    border-radius: 50%;
+    border: 2px solid #F2F2F2;
+    width: 18px;
+    height: 18px;
+    color:#0065FC;
+    margin-left: 10px;
+    text-align: center;
+    padding: 0.2em
 }
