@@ -25,7 +25,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    border: 1px black transparent; /* bordure test*/
+    border: 1px black solid; /* bordure test*/
 }
 
 #logo img
@@ -73,7 +73,7 @@ nav a:hover
 
 .firstSection
 {
-    border: 1px black transparent; /* bordure test*/
+    border: 1px black solid; /* bordure test*/
     padding-top: 15px;
     margin-left: 3%;
 }
@@ -100,7 +100,6 @@ nav a:hover
     height: 40px;
     width: 300px;
     border-radius: 5px 0 0 5px;
-    border: 
 }
 
 .mapMarker
@@ -259,4 +258,86 @@ p
     margin-left: 10px;
     text-align: center;
     padding: 0.2em
+}
+
+/* Second Section*/
+
+.secondSection
+{
+    border: 1px black solid; /* Border test*/
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.secondSection h1
+{
+    padding-left: 2%;
+}
+
+/* Accomodation */
+
+#accomodation
+{
+    background-color: #F2F2F2;
+    border: 1px blue solid; /* Border test*/
+    margin-right: 45%;
+    display: flex;
+    justify-content: space;
+}
+
+/* Accomodation -> Hostel */
+
+.hostel figure
+{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+    padding-right: 1.1em;
+    margin-right: 5%;
+}
+
+.marcusLoke
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Accomodation -> Port */
+
+.port figure
+{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+    padding-right: 1.1em;
+    margin-right: 5%;
+}
+
+.fredKleber
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Accomodation -> Seagull */
+
+.seagull figure
+{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+    padding-right: 1.1em;
+    margin-right: 5%;
+}
+
+.reisetopia
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
 }
