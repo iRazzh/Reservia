@@ -266,11 +266,6 @@ p
 
 /* Second Section -> Accomodation + Popular*/
 
-.accomodationPopular
-{
-    display: flex;
-}
-
 .accomodationPopular figcaption
 {
     font-weight: bold;
@@ -301,7 +296,7 @@ aside
     margin-left: 3%;
 }
 
-.sectionAccomodation h1
+.sectionAccomodation h2
 {
     border-radius: 10px 10px 0 0;
     background-color: #F2F2F2;
@@ -312,7 +307,7 @@ aside
     font-size: 1.3em;
 }
 
-.sectionAccomodation h2
+.sectionAccomodation h3
 {
     border-radius: 0px 0px 10px 10px;
     background-color: #F2F2F2;
@@ -516,12 +511,12 @@ aside
     height: 94%;
 }
 
-.h1i
+.h2i
 {
     display: flex;
 }
 
-.h1i h1
+.h2i h2
 {
     border: 1px black transparent;
     font-size: 1.3em;
@@ -529,7 +524,7 @@ aside
     padding-left: 8%;
 }
 
-.h1i i
+.h2i i
 {
     padding-top: 5%;
     padding-left: 10%;
@@ -655,7 +650,7 @@ aside
 
 /* Third Section -> Activities */
 
-.activitiesMarseille h1
+.activitiesMarseille h2
 {
     padding-left: 8%;
     font-size: 1.3em;
@@ -832,7 +827,7 @@ aside
     grid-template-rows: 185px;
 }
 
-.endFooter h1
+.endFooter h3
 {
     font-size: 1.1em;
     font-weight: bold;
