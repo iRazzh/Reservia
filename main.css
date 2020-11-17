@@ -681,7 +681,7 @@ aside
     
 }
 
-/* Third Section -> Activities -> Old Port A*/
+/* Third Section -> Activities -> Port A*/
 
 .iA
 {
@@ -693,10 +693,10 @@ aside
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 2%;
-    border: 1px red transparent;
-    border-radius: 0px 0px 10px 10px;;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px ;
     margin-right: 5.9%;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 1px 0px #F2F2F2;
 }
 
 .renoLaithienne
@@ -816,4 +816,23 @@ aside
     width: 300px;
     height: 150px;
     border-radius: 10px 10px 0 0;
+}
+
+/* Footer */
+
+.endFooter
+{
+    background-color: #F2F2F2;
+    margin-top: 9%;
+    padding-left: 6%;
+    font-size: 0.9em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 185px;
+}
+
+.endFooter h1
+{
+    font-size: 1.1em;
+    font-weight: bold;
 }
