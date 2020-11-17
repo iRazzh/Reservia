@@ -112,6 +112,7 @@ nav a:hover
 {
     width: 2em;
     text-align: center;
+    font-size: 0.9em;
 }
 
 .mapMarker em
@@ -835,4 +836,6 @@ aside
 {
     font-size: 1.1em;
     font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
