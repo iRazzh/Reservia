@@ -299,7 +299,7 @@ aside
 .stars
 {
     display: flex;
-    padding-left: 2%;
+    padding-left: 3%;
 }
 
 .fa-star
@@ -346,9 +346,18 @@ aside
     font-size: 1em;
 }
 
-.sectionAccomodation p
+
+.price
 {
+    margin: 6px;
     font-size: 0.8em;
+}
+
+h4
+{
+    padding-left: 3%;
+    margin-block-end:0;
+    margin-block-start:0;
 }
 
 /* Accomodation */
@@ -364,8 +373,6 @@ aside
     padding-top: 2%;
     padding-bottom: 2%;
 }
-
-/* Accomodation -> Hostel */
 
 .picturesAccomodation
 {
@@ -421,24 +428,21 @@ aside
     padding-left: 10%;
 }
 
-.sectionPopular figcaption
+.sectionPopular h4
 {
-    padding-left: 55%;  
+    padding-left: 54%;
 }
 
-.sectionPopular p 
+.price1
 {
-    padding-left: 55%;
-    padding-top: 3%;
+    border: 1px transparent black;
     font-size: 0.8em;
+    margin: 4%;
 }
-
-/* Popular */
 
 .picturesPopular
 {
     border: 1px green transparent; /* border test */
-    flex-direction: none;
     background-color: white;
     border-radius: 10px;
     padding-left: 1.6%;
@@ -446,7 +450,6 @@ aside
     padding-bottom: 2%;
     margin: 7%;
 }
-
 
 .pictures2
 {
@@ -461,7 +464,7 @@ aside
 {
     border: 1px red transparent; /* border test */
     display: flex;
-    padding-top: 9%;
+    padding-top: 11%;
     padding-left: 5%;
 }
 
@@ -469,15 +472,7 @@ aside
 {
     border: 1px red transparent; /* border test */
     display: flex;
-    padding-top: 5%;
-    padding-left: 5%;
-}
-
-.starsPopular3
-{
-    border: 1px red transparent; /* border test */
-    display: flex;
-    padding-top: 9%;
+    padding-top: 6%;
     padding-left: 5%;
 }
 
