@@ -66,6 +66,7 @@ nav a:hover
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding-top: 22px;
+    transition: all 450ms;
 }
 
 .inscription
@@ -159,11 +160,13 @@ p
     margin: 0;
 }
 
+/* First Section -> Filters eco */
+
 .eco 
 {
     border: 2px solid #F2F2F2;
     border-radius: 50px;
-    padding-right: 0.8em;
+    padding-right: 0.7em;
     width: fit-content;
     height: 40px;
     margin-right: 10px;
@@ -178,6 +181,8 @@ p
     background-color: #DEEBFF;
     color: #0065FC;
 }
+
+/* First Section -> Filters fam */
 
 .fam
 {
@@ -200,6 +205,8 @@ p
     color:#0065FC;
 }
 
+/* First Section -> Filters romance */
+
 .romance
 {
     border: 2px solid #F2F2F2;
@@ -218,6 +225,8 @@ p
     background-color: #DEEBFF;
     color: #0065FC;
 }
+
+/* First Section -> Filters dog */
 
 .dog
 {
@@ -718,7 +727,7 @@ aside
     border: 1px red transparent;
     border-radius: 0px 0px 10px 10px;;
     margin-right: 5.9%;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 3px 3px #F2F2F2;
 }
 
 .paulHermann
@@ -743,7 +752,7 @@ aside
     border: 1px red transparent;
     border-radius: 0px 0px 10px 10px;;
     margin-right: 5.9%;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 3px 3px #F2F2F2;
 }
 
 .kilyanSockalingum
@@ -763,7 +772,7 @@ aside
     border: 1px red transparent;
     border-radius: 0px 0px 10px 10px;;
     margin-right: 5.9%;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 3px 3px #F2F2F2;
 }
 
 .florianWehde
@@ -783,7 +792,7 @@ aside
     border: 1px red transparent;
     border-radius: 0px 0px 10px 10px;;
     margin-right: 5.9%;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 3px 3px #F2F2F2;
 }
 
 .kevinHikari
@@ -804,7 +813,7 @@ aside
     border: 1px red transparent;
     border-radius: 0px 0px 10px 10px;;
     margin-right: 5.9%;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 3px 3px #F2F2F2;
 }
 
 .lenaPaulin
@@ -820,6 +829,7 @@ aside
 {
     background-color: #F2F2F2;
     margin-top: 9%;
+    padding-bottom: 2%;
     padding-left: 6%;
     font-size: 0.9em;
     display: grid;
@@ -833,4 +843,9 @@ aside
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 3%;
+}
+
+.endFooter p
+{
+    margin-bottom: 3%;
 }
