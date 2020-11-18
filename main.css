@@ -296,6 +296,25 @@ aside
     width: 32%;
 }
 
+.stars
+{
+    display: flex;
+    padding-left: 2%;
+}
+
+.fa-star
+{
+    color: #0065FC;
+    font-size: 0.6em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.grey
+{
+    color: #F2F2F2;
+}
+
 /* Section Accomodation */
 
 .sectionAccomodation
@@ -341,169 +360,32 @@ aside
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-/* Accomodation -> Hostel */
-
-.hostel figure
-{
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-right: 1.1em;
-    margin-right: 5%;
-}
-
-.hostel:nth-child(1)
-{
-    border: 1px red transparent; /*border test*/
-}
-
-.marcusLoke
-{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.stars
-{
-    display: flex;
-    padding-left: 2%;
-}
-
-.fa-star
-{
-    color: #0065FC;
-    font-size: 0.6em;
+    padding-left: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-.grey
+/* Accomodation -> Hostel */
+
+.picturesAccomodation
 {
-    color: #F2F2F2;
-}
-
-
-/* Accomodation -> Port */
-
-.port figure
-{
+    border: 1px transparent green;
     background-color: white;
     border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
+    padding-left: 0.7%;
+    padding-top: 0.7%;
     padding-right: 1.1em;
-    margin-right: 5%;
+    margin-right: 10%;
+    width: 180px;
+    height: 160px;
+    margin: 2%;
 }
 
-.port:nth-child(2)
+.pictures1
 {
-    border: 1px green transparent; /*border test*/
-}
-
-.fredKleber
-{
-    width: 200px;
+    width: 192px;
     height: 100px;
     border-radius: 10px 10px 0px 0px;
-}
-
-/* Accomodation -> Seagull */
-
-.seagull figure
-{
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-right: 1.1em;
-    margin-right: 5%;
-}
-
-.seagull:nth-child(3)
-{
-    border: 1px purple transparent; /*border test*/
-}
-
-.reisetopia
-{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-/* Accomodation -> Beach */
-
-.beach figure
-{
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-right: 1.1em;
-    margin-right: 5%;
-}
-
-.beach:nth-child(4)
-{
-    border: 1px blue transparent; /*border test*/
-}
-.annieSpratt
-{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-/*Accomodation -> Basket */
-
-.basket figure
-{
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-right: 1.1em;
-    margin-right: 5%;
-}
-
-.basket:nth-child(5)
-{
-    border: 1px greenyellow transparent; /*border test*/
-}
-
-.nicateLee
-{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px; 
-}
-
-/*Accomodation -> Amina */
-
-.amina figure
-{
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-right: 1.1em;
-    margin-right: 5%;
-}
-
-.amina:nth-child(6)
-{
-    border: 1px black transparent; /*border test*/
-}
-
-.febrian
-{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px; 
 }
 
 /* Section Popular */
@@ -517,7 +399,7 @@ aside
     margin-top: 4%;
     margin-right: 8%;
     border-radius: 10px 10px 10px 10px;
-    height: 94%;
+    height: 96.6%;
 }
 
 .h2i
@@ -551,27 +433,24 @@ aside
     font-size: 0.8em;
 }
 
-/* Popular -> Sun */
+/* Popular */
 
-.sun figure
+.picturesPopular
 {
     border: 1px green transparent; /* border test */
     flex-direction: none;
     background-color: white;
     border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-bottom: 1.2%;
-    margin: 6%;
+    padding-left: 1.6%;
+    padding-top: 1.3%;
+    padding-bottom: 2%;
+    margin: 7%;
 }
 
-.sun:nth-child(1)
-{
-    border: 1px black transparent; /*border test*/
-}
 
-.emileGuillemot
+.pictures2
 {
+    border: 1px blue transparent;
     width: 200px;
     height: 100px;
     border-radius: 10px 10px 0px 0px; 
@@ -586,67 +465,12 @@ aside
     padding-left: 5%;
 }
 
-/* Popular -> Water */
-
-.water figure
-{
-    border: 1px transparent red;
-    flex-direction: none;
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-bottom: 1%;
-    margin: 6%;
-}
-
-.water:nth-child(2)
-{
-    border: 1px black transparent; /* border test */
-}
-
-.awCreative
-{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px; 
-    float: left;
-}
-
 .starsPopular2
 {
     border: 1px red transparent; /* border test */
     display: flex;
     padding-top: 5%;
     padding-left: 5%;
-}
-
-
-/* Popular -> allBlue */
-
-.allBlue figure
-{
-    border: 1px transparent green; /* border test */
-    flex-direction: none;
-    background-color: white;
-    border-radius: 10px;
-    padding-left: 0.3em;
-    padding-top: 0.3em;
-    padding-bottom: 1.3%;
-    margin: 6%;
-}
-
-.allBlue:nth-child(3)
-{
-    border: 1px red transparent; /* border test*/
-}
-
-.febrianZakaria
-{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px 10px 0px 0px; 
-    float: left;
 }
 
 .starsPopular3
