@@ -1,10 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
+    
     <head>
         <meta charset= "UTF-8">
         <link rel="stylesheet" href="main.css"> 
+        <link rel="shortcut icon" type="image/png" href="logo/reserviaIcon.png">
         <script src="https://kit.fontawesome.com/fe36517717.js" crossorigin="anonymous"></script>
-        <title>Reservia</title>
+        <title>Reservia - Location d'hébergement dans toute la France.</title> <!-- Titre de la page -->
+        <meta name="description" content="Profitez des meilleurs hébergements pour des vacances de rêve dans toute la France entière." /> <!-- Meta Description -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- ViewPort -->
+        <meta property="og:title" content="Open Graph : Reservia" /> <!-- Open Graph -->
+        <meta property="og:description" content="Reservia est un site regroupant les meilleurs hébergements dans toute la France."/>
+        <meta property="og:image" content="https://www.cjoint.com/c/JKBocnN40TI" />
+        <meta property="og:image:secure_url" content="https://www.cjoint.com/c/JKBocnN40TI" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+        <meta property="og:image:alt" content="Reservia" />
+        <meta property="og:url" content="https://irazzh.github.io/Reservia_OC_P2/" />
+        <meta property="og:type" content="website">
     </head>
 
     <body>
@@ -17,8 +31,8 @@
                     
                     <nav>
                         <ul>
-                            <li><a href="#anchorAccomodation">Hébergements</a></li>
-                            <li><a href="#anchorActivities">Activités</a></li>
+                            <li class="acco"><a href="#anchorAccomodation">Hébergements</a></li>
+                            <li class="acti"><a href="#anchorActivities">Activités</a></li>
                             <li><a href="#" class="inscription">S'inscrire</a></li>
                         </ul>
                     </nav>
@@ -36,10 +50,11 @@
                                 </span>
                                 <input type="search" id="myResearch" name="searching" placeholder="Marseille, France" />
                                 <button class="bouton">Rechercher</button>
+                                <div class="searchIcon"><i class="fas fa-search"></i></div>
                             </form>
                         </div>
 
-
+                    <div class="filtersInfo">
                         <div class="filters">
                             <h2>Filtres</h2>
                             <div class="icon">
@@ -72,6 +87,7 @@
                             <p>Plus de 500 logements sont disponibles dans cette ville</p>
                         </div>
                     </div>
+                </div>
                 </section>
             </header>
 
@@ -170,7 +186,6 @@
                                 <h2>Les plus populaires</h2>
                                 <i class="fas fa-chart-line"></i>
                             </div>
-                                <div id="popular">
                                     <div class="picturesPopular">
                                         <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" title="Hôtel Le Soleil du Matin" class="extractPopular">
                                         <h4>Hôtel Le soleil du matin</h4>
@@ -209,7 +224,6 @@
                                             <i class="fas grey fa-star"></i> 
                                         </div>
                                     </div>
-                                </div>
                         </div>      
                     </aside>   
                 </div>         
@@ -276,26 +290,30 @@
         </div>
 
         <footer>
-            <div class="endFooter">
-                <div class="about">
-                    <h3>A propos</h3>
-                    <p>Fonctionnement du site</p>
-                    <p>Conditions générales de vente</p>
-                    <p>Données et confidentialité</p>
-                </div>
-
-                <div class="ourAcommodations">
-                    <h3>Nos hébergements</h3>
-                    <p>Charte qualité</p>
-                    <p>Soumettre votre hôtel</p>
-                </div>
-
-                <div class="assistance">
-                    <h3>Assistance</h3>
-                    <p>Centre d'aide</p>
-                    <p>Nous contacter</p>
-                </div>
+            <div id="about">
+              <ul>
+                <li><h2>À propos</h2></li>
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de vente</li>
+                <li>Données et confidentialité</li>
+              </ul>
             </div>
-        </footer>
+    
+            <div id="ourAccomodations">
+              <ul>
+                <li><h2>Nos hébergements</h2></li>
+                <li>Charte qualité</li>
+                <li>Soumettre votre hôtel</li>
+              </ul>
+            </div>
+    
+            <div id="assist">
+              <ul>
+                <li><h2>Assistance</h2></li>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+              </ul>
+            </div>
+          </footer>
     </body>
 </html>
