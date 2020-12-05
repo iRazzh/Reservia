@@ -117,7 +117,7 @@ nav a:hover, .inscription:hover
     background-color: #F2F2F2;
     display: flex;
     height: 40px;
-    width: 300px;
+    width: 21%;
     border-radius: 5px 0 0 5px;
 }
 
@@ -548,11 +548,16 @@ h4
 
 footer 
 {
-	display: flex;
 	flex-flow: row wrap;
 	background-color: #F2F2F2;
     margin-top: 5%;
-    padding-left: 15rem;
+}
+
+.allFooter
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5rem;
 }
 
 footer ul
@@ -654,6 +659,11 @@ footer a:visited
 
    /* Research */
 
+   .foundFilters
+   {
+       padding: 0.3rem;
+   }
+
    .found
    {
        margin-bottom: 2rem;
@@ -669,6 +679,7 @@ footer a:visited
    .search
    
 	{
+        width: 70%;
 		position: relative;
 		display: flex;
 		justify-content: center;
@@ -776,6 +787,13 @@ footer a:visited
         max-width: inherit;
     }
 
+    .sectionAccomodation h3
+    {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
     /* Popular */
 
     .secondArticle
@@ -811,9 +829,21 @@ footer a:visited
 
     .activitiesMarseille
     {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px;
+        padding-top: 4rem;
+        margin-left: 0.5rem;
+    }
+
+    #anchorActivities
+    {
+        padding-top: 0;
+        margin-left: 0.5rem;
+    }
+
+    .containerActivities
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0rem;
     }
 
     /* Footer */
@@ -830,17 +860,39 @@ footer a:visited
         color: black;
     }
 
+    .allFooter 
+    {
+        margin-left: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
     footer li 
     {
         font-size: 0.9em;
     }
 
-    #ourAccomodations
+    #about ul 
     {
-        margin: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    #ourAccomodations 
+    {
+        margin-left: 0;
+    }
+    #ourAccomodations ul
+    {
+        padding: 0;
     }
 
     #assist
     {
-        margin: 0;
+        margin-left: 0;
+    }
+
+    #assist ul
+    {
+        padding: 0;
     }
