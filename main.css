@@ -596,6 +596,9 @@ footer a:visited
 
                                 /* Media Queries */
 
+
+
+
 @media all and (max-width: 480px)
 {
 
@@ -720,7 +723,7 @@ footer a:visited
        display: none;
    }
 
-   /* Filtres */
+   /* Filters */
    
    
     .filters
@@ -740,8 +743,44 @@ footer a:visited
 	.icon
 	{
         margin: 0;
-        margin-right: 1rem;
+        margin-right: 3rem;
         margin-bottom: 0.5rem;
+    }
+
+        /* Popular */
+
+    .secondArticle
+    {
+        width: 100%;
+    }
+
+    .sectionPopular h2
+    {
+        padding-left: 1?
+    }
+
+    .sectionPopular
+    {
+        display: flex;
+	    flex-flow: row wrap;
+	    background-color: #F2F2F2;
+        max-width: 100%;
+        border-radius: unset;
+    }
+
+    .h2i
+    {
+        width: 100%;
+    }
+
+    .h2i i
+    {
+        margin-left: 11rem;
+    }
+
+    .picturesPopular
+    {
+		height: auto;
     }
 
     /* Accomodation */
@@ -773,8 +812,9 @@ footer a:visited
     {
         padding: 0;
         margin-bottom: 0.5rem;
-        margin-left: 1.5rem;
+        margin-left: 1.4rem;
     }
+
     #accommodation
 	{
 		display: flex;
@@ -785,12 +825,12 @@ footer a:visited
     .picturesAccomodation
     {
         max-width: inherit;
-        margin-left: 2rem;
+        margin-left: 2.2rem;
     }
 
     .extractAccomodation
     {
-        width: 385px;
+        width: 375px;
     }
 
     .sectionAccomodation h3
@@ -800,49 +840,18 @@ footer a:visited
         padding: 0;
     }
 
-    /* Popular */
-
-    .secondArticle
-    {
-        width: 100%;
-    }
-
-    .sectionPopular
-    {
-        display: flex;
-	    flex-flow: row wrap;
-	    background-color: #F2F2F2;
-        max-width: 100%;
-        border-radius: unset;
-    }
-
-    .h2i
-    {
-        width: 100%;
-    }
-
-    .h2i i
-    {
-        margin-left: 10rem;
-    }
-
-    .picturesPopular
-    {
-		height: auto;
-    }
-
     /* Activities */
 
     .activitiesMarseille
     {
         padding-top: 4rem;
-        margin-left: 0.5rem;
+        margin-left: 0.7rem;
     }
 
     #anchorActivities
     {
         padding-top: 0;
-        margin-left: 0.5rem;
+        margin-left: 0.7rem;
     }
 
     .containerActivities
@@ -860,14 +869,13 @@ footer a:visited
 
     .containerActivities img 
     {
-        width: 100%;
+        width: 385px;
         height: 130px;
         object-position: center;
     }
 
     .containerActivities .iB
     {
-        width: 417px;
         object-position: initial;
     }
 
@@ -928,3 +936,85 @@ footer a:visited
     {
         padding: 0;
     }
+}
+
+@media all and (max-width: 375px)
+{
+
+        /* Filters */
+
+        .icon
+        {
+            margin: 0;
+            margin-right: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Popular */ 
+
+        .secondArticle
+        {
+            max-width: 375px;
+        }
+
+        .h2i i
+        {
+            margin-left: 8rem;
+        }
+
+        /* Accomodation */
+
+        article 
+        {
+            min-width: 375px;
+            order: 2;
+        }
+
+        .sectionAccomodation h2 
+        {
+            margin-left: 1rem;
+        }
+
+        #accomodation
+        {
+            justify-content: unset;
+        }
+
+        .picturesAccomodation
+        {
+            margin-left: 1rem;
+        }
+
+        .extractAccomodation
+        {
+            width: 340px;
+        }
+
+        /* Activities */
+
+
+        #anchorActivities
+        {
+            margin-left: 0.5rem;
+        }
+
+        .containerActivities img 
+        {
+            width: 340px;
+            height: 110px;
+        }
+
+        /* Footer */
+
+        #about ul 
+        {
+            padding-top: 1rem;
+        }
+
+        footer h2 
+        {
+            font-size: 23px;
+        }
+}
+
+
