@@ -756,7 +756,7 @@ footer a:visited
 
     .sectionPopular h2
     {
-        padding-left: 1?
+        padding-left: 1rem;
     }
 
     .sectionPopular
@@ -967,7 +967,6 @@ footer a:visited
         article 
         {
             min-width: 375px;
-            order: 2;
         }
 
         .sectionAccomodation h2 
@@ -1018,3 +1017,51 @@ footer a:visited
 }
 
 
+@media all and (max-width: 320px)
+{
+
+        /* Filters */
+
+        .icon
+        {
+            margin-right: 1rem;
+        }
+
+        /* Popular */ 
+
+        .secondArticle
+        {
+            max-width: 320px;
+        }
+
+        .h2i i
+        {
+            margin-left: 4rem;
+        }
+
+        /* Accomodation */
+        
+        article 
+        {
+            min-width: 320px;
+        }
+
+        .extractAccomodation
+        {
+            width: 280px;
+        }
+
+        /* Activities */
+
+        .containerActivities img 
+        {
+            width: 280px;
+        }
+
+        /* Footer */
+
+        footer h2 
+        {
+            font-size: 20px;
+        }
+}
