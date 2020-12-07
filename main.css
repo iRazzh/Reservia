@@ -823,7 +823,7 @@ footer a:visited
 
     .h2i i
     {
-        margin-left: 4rem;
+        margin-left: 10rem;
     }
 
     .picturesPopular
@@ -896,6 +896,11 @@ footer a:visited
     footer li 
     {
         font-size: 0.9em;
+    }
+
+    footer h2 
+    {
+        font-size: 28px;
     }
 
     #about ul 
