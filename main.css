@@ -753,7 +753,7 @@ footer a:visited
 
     article 
     {
-        min-width: 320px;
+        min-width: 400px;
         order: 2;
     }
 
@@ -773,7 +773,7 @@ footer a:visited
     {
         padding: 0;
         margin-bottom: 0.5rem;
-        margin-left: 0.5rem;
+        margin-left: 1.5rem;
     }
     #accommodation
 	{
@@ -785,12 +785,18 @@ footer a:visited
     .picturesAccomodation
     {
         max-width: inherit;
+        margin-left: 2rem;
+    }
+
+    .extractAccomodation
+    {
+        width: 385px;
     }
 
     .sectionAccomodation h3
     {
         margin-top: 1rem;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         padding: 0;
     }
 
@@ -817,7 +823,7 @@ footer a:visited
 
     .h2i i
     {
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
 
     .picturesPopular
@@ -846,6 +852,25 @@ footer a:visited
         padding-top: 0rem;
     }
 
+    .containerActivities .cards
+    {
+        margin-right: 15px;
+        margin-left: 7px;
+    }
+
+    .containerActivities img 
+    {
+        width: 100%;
+        height: 130px;
+        object-position: center;
+    }
+
+    .containerActivities .iB
+    {
+        width: 417px;
+        object-position: initial;
+    }
+
     /* Footer */
 
 	footer
@@ -862,7 +887,8 @@ footer a:visited
 
     .allFooter 
     {
-        margin-left: 1.5rem;
+        font-size: 1.3rem;
+        margin-left: 2.5rem;
         flex-wrap: wrap;
         justify-content: unset;
     }
@@ -876,6 +902,7 @@ footer a:visited
     {
         margin-left: 0;
         padding: 0;
+        padding-top: 2rem;
     }
 
     #ourAccomodations 
