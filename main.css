@@ -597,475 +597,6 @@ footer a:visited
                                 /* Media Queries */
 
 
-
-
-                            @media all and (max-width: 480px)
-{
-
-   /* HEADER */ 
-
-   header
-   {
-       width: 100%;
-       padding: 0.5rem;
-       box-sizing: border-box;
-   }
-
-   header .container
-   {
-       flex-wrap: wrap;
-   }
-
-   #logo
-   {
-
-       order: 1;
-   }
-
-   header nav 
-   {
-       order: 3;
-       margin-left: 0;
-       width: 100%;
-       margin-top: 1rem;
-   }
-
-   header ul 
-   {
-       padding: 0;
-       display: flex;
-       width: 100%;
-       justify-content: space-around;
-       padding-bottom: 1rem;
-       border-bottom: 4px #F2F2F2 solid;
-   }
-
-   nav li 
-   {
-       width: 50%;
-       text-align: center;
-       margin: 0;
-   }
-
-   .acco:hover, .acti:hover
-   {
-       color: #0065FC;
-   }
-
-   .inscription
-   {
-       order: 2;
-       width: 50%;
-       text-align: right;
-   }
-
-
-   /* Research */
-
-   .foundFilters
-   {
-       padding: 0.3rem;
-   }
-
-   .found
-   {
-       margin-bottom: 2rem;
-       box-sizing: border-box;
-   }
-
-   .found h1
-   {
-       flex-wrap: wrap;
-       font-size: 1.2em;
-   }
-
-   .search
-   
-	{
-        width: 80%;
-		position: relative;
-		display: flex;
-		justify-content: center;
-	}
-
-	.search input
-	{
-		width: 70%;
-		height: auto;
-	}
-   
-    .mapMarker
-    {
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        margin: auto;
-    }
-
-   .searchIcon
-   {
-       width: 40px;
-       height: 40px;
-       margin: auto;
-       display: flex;
-       background-color: #0065FC;
-       color: white;
-       border-radius: 6px;
-   }
-
-   .fa-search
-   {
-       margin: auto;
-   }
-
-   .bouton
-   {
-       display: none;
-   }
-
-   /* Filters */
-   
-   
-    .filters
-	{
-		display: flex;
-		flex-wrap: wrap;
-        margin-bottom: 2rem;
-        margin-top: 0;
-	}
-
-	.filters h2
-	{
-		width: 100%;
-		padding-top: 5px;
-	}
-
-	.icon
-	{
-        margin: 0;
-        margin-right: 3rem;
-        margin-bottom: 0.5rem;
-    }
-
-        /* Popular */
-
-    .secondArticle
-    {
-        width: 100%;
-    }
-
-    .sectionPopular h2
-    {
-        padding-left: 1rem;
-    }
-
-    .sectionPopular
-    {
-        display: flex;
-	    flex-flow: row wrap;
-	    background-color: #F2F2F2;
-        max-width: 100%;
-        border-radius: unset;
-    }
-
-    .h2i
-    {
-        width: 100%;
-    }
-
-    .h2i i
-    {
-        margin-left: 11rem;
-    }
-
-    .picturesPopular
-    {
-		height: auto;
-    }
-
-    /* Accomodation */
-
-    .accomodationPopular .container
-    {
-        flex-wrap: wrap;
-    }
-
-    article 
-    {
-        min-width: 400px;
-        order: 2;
-    }
-
-    .accomodationPopular
-    {
-		display: flex;
-		width: 100%;
-    }
-
-    .sectionAccomodation
-    {
-        background-color: unset;
-        margin-top: 3rem;
-    }
-
-    .sectionAccomodation h2 
-    {
-        padding: 0;
-        margin-bottom: 0.5rem;
-        margin-left: 1.4rem;
-    }
-
-    #accommodation
-	{
-		display: flex;
-		flex-flow: wrap;
-        max-width: 100%;
-    }
-
-    .picturesAccomodation
-    {
-        max-width: inherit;
-        margin-left: 2.2rem;
-    }
-
-    .extractAccomodation
-    {
-        width: 375px;
-    }
-
-    .sectionAccomodation h3
-    {
-        margin-top: 1rem;
-        margin-left: 1.5rem;
-        padding: 0;
-    }
-
-    /* Activities */
-
-    .activitiesMarseille
-    {
-        padding-top: 4rem;
-        margin-left: 0.7rem;
-    }
-
-    #anchorActivities
-    {
-        padding-top: 0;
-        margin-left: 0.7rem;
-    }
-
-    .containerActivities
-    {
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 0rem;
-    }
-
-    .containerActivities .cards
-    {
-        margin-right: 15px;
-        margin-left: 7px;
-    }
-
-    .containerActivities img 
-    {
-        width: 385px;
-        height: 130px;
-        object-position: center;
-    }
-
-    .containerActivities .iB
-    {
-        object-position: initial;
-    }
-
-    /* Footer */
-
-	footer
-    {
-        width: 100%;
-        height: auto;
-        padding: 0;
-	}
-
-    footer a:visited
-    {
-        color: black;
-    }
-
-    .allFooter 
-    {
-        font-size: 1.3rem;
-        margin-left: 2.5rem;
-        flex-wrap: wrap;
-        justify-content: unset;
-    }
-
-    footer li 
-    {
-        font-size: 0.9em;
-    }
-
-    footer h2 
-    {
-        font-size: 28px;
-    }
-
-    #about ul 
-    {
-        margin-left: 0;
-        padding: 0;
-        padding-top: 2rem;
-    }
-
-    #ourAccomodations 
-    {
-        margin-left: 0;
-    }
-    #ourAccomodations ul
-    {
-        padding: 0;
-    }
-
-    #assist
-    {
-        margin-left: 0;
-    }
-
-    #assist ul
-    {
-        padding: 0;
-    }
-}
-
-                            @media all and (max-width: 375px)
-{
-
-        /* Filters */
-
-        .icon
-        {
-            margin: 0;
-            margin-right: 2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        /* Popular */ 
-
-        .secondArticle
-        {
-            max-width: 375px;
-        }
-
-        .h2i i
-        {
-            margin-left: 8rem;
-        }
-
-        /* Accomodation */
-
-        article 
-        {
-            min-width: 375px;
-        }
-
-        .sectionAccomodation h2 
-        {
-            margin-left: 1rem;
-        }
-
-        #accomodation
-        {
-            justify-content: unset;
-        }
-
-        .picturesAccomodation
-        {
-            margin-left: 1rem;
-        }
-
-        .extractAccomodation
-        {
-            width: 340px;
-        }
-
-        /* Activities */
-
-
-        #anchorActivities
-        {
-            margin-left: 0.5rem;
-        }
-
-        .containerActivities img 
-        {
-            width: 340px;
-            height: 110px;
-        }
-
-        /* Footer */
-
-        #about ul 
-        {
-            padding-top: 1rem;
-        }
-
-        footer h2 
-        {
-            font-size: 23px;
-        }
-}
-
-
-                            @media all and (max-width: 320px)
-{
-
-        /* Filters */
-
-        .icon
-        {
-            margin-right: 1rem;
-        }
-
-        /* Popular */ 
-
-        .secondArticle
-        {
-            max-width: 320px;
-        }
-
-        .h2i i
-        {
-            margin-left: 4rem;
-        }
-
-        /* Accomodation */
-        
-        article 
-        {
-            min-width: 320px;
-        }
-
-        .extractAccomodation
-        {
-            width: 280px;
-        }
-
-        /* Activities */
-
-        .containerActivities img 
-        {
-            width: 280px;
-        }
-
-        /* Footer */
-
-        footer h2 
-        {
-            font-size: 20px;
-        }
-}
-
                             @media all and (max-width: 768px)
 {
 
@@ -1105,7 +636,7 @@ footer a:visited
         justify-content: space-around;
     }
 
-    nav a:hover
+    nav a:hover, .inscription:hover
     {
         border-top: none;
     }
@@ -1344,13 +875,12 @@ footer a:visited
      .activitiesMarseille
      {
         padding-top: 4rem;
-        margin-left: 1rem;
+        margin-left: 0.3rem;
      }
  
      #anchorActivities
      {
-        padding-top: 0;
-        margin-left: 0.7rem;
+        margin-left: 1.2rem;
      }
  
      .containerActivities
@@ -1429,4 +959,182 @@ footer a:visited
         padding: 0;
      }
  }
+
+                            @media all and (max-width: 480px)
+{
+
+   /* HEADER */ 
+
+   nav li 
+   {
+       padding-top: 1rem;
+   }
+   
+   /* Research */
+
+   .search
+   
+	{
+        width: 80%;
+	}
+   
+    .mapMarker
+    {
+        width: 40px;
+    }
+
+   .searchIcon
+   {
+       width: 50px;
+   }
+
+        /* Popular */
+
+    .h2i i
+    {
+        margin-left: 11rem;
+    }
+
+    .picturesPopular h4
+    {
+        padding-left: 6rem;
+    }
+
+    .picturesPopular p 
+    {
+        padding-left: 5.7rem;
+    }
+
+    /* Accomodation */
+
+    .extractAccomodation
+    {
+        width: 375px;
+    }
+
+    .sectionAccomodation h3
+    {
+        margin-left: 1.5rem;
+    }
+
+    /* Activities */
+
+    .activitiesMarseille
+    {
+        margin-left: 0.3rem;
+    }
+
+    #anchorActivities
+    {
+        padding-top: 0;
+        margin-left: 1.2rem;
+    }
+
+    .containerActivities img 
+    {
+        width: 385px;
+        height: 130px;
+    }
+
+    /* Footer */
+
+    .allFooter 
+    {
+        margin-left: 2.5rem;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    #about ul 
+    {
+        padding-top: 2rem;
+    }
+}
+
+                            @media all and (max-width: 375px)
+{
+
+        /* Filters */
+
+        .icon
+        {
+            margin-right: 2rem;
+        }
+
+        /* Popular */ 
+
+        .h2i i
+        {
+            margin-left: 8rem;
+        }
+
+        /* Accomodation */
+
+        .sectionAccomodation h2 
+        {
+            margin-left: 1rem;
+        }
+
+        .extractAccomodation
+        {
+            width: 340px;
+        }
+
+        /* Activities */
+
+        .containerActivities img 
+        {
+            width: 340px;
+            height: 110px;
+        }
+
+        /* Footer */
+
+        #about ul 
+        {
+            padding-top: 1rem;
+        }
+}
+
+
+                            @media all and (max-width: 320px)
+{
+
+        /* Filters */
+
+        .icon
+        {
+            margin-right: 1rem;
+        }
+
+        /* Popular */ 
+
+        .h2i i
+        {
+            margin-left: 4rem;
+        }
+
+        /* Accomodation */
+
+        .extractAccomodation
+        {
+            width: 280px;
+        }
+
+        /* Activities */
+
+        .containerActivities img 
+        {
+            width: 280px;
+        }
+
+        /* Footer */
+
+        footer h2 
+        {
+            font-size: 20px;
+        }
+}
+
+
  
