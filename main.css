@@ -117,7 +117,7 @@ nav a:hover, .inscription:hover
     background-color: #F2F2F2;
     display: flex;
     height: 40px;
-    width: 21%;
+    width: 18.5rem;
     border-radius: 5px 0 0 5px;
 }
 
@@ -164,7 +164,7 @@ nav a:hover, .inscription:hover
 .filters
 {
     display: flex;
-    margin-top: 35px;
+    margin-top: 3rem;
 }
 
 .filters h2
@@ -550,7 +550,7 @@ footer
 {
 	flex-flow: row wrap;
 	background-color: #F2F2F2;
-    margin-top: 5%;
+    margin-top: 4rem;
 }
 
 .allFooter
@@ -599,7 +599,7 @@ footer a:visited
 
 
 
-@media all and (max-width: 480px)
+                            @media all and (max-width: 480px)
 {
 
    /* HEADER */ 
@@ -682,7 +682,7 @@ footer a:visited
    .search
    
 	{
-        width: 70%;
+        width: 80%;
 		position: relative;
 		display: flex;
 		justify-content: center;
@@ -938,7 +938,7 @@ footer a:visited
     }
 }
 
-@media all and (max-width: 375px)
+                            @media all and (max-width: 375px)
 {
 
         /* Filters */
@@ -1017,7 +1017,7 @@ footer a:visited
 }
 
 
-@media all and (max-width: 320px)
+                            @media all and (max-width: 320px)
 {
 
         /* Filters */
@@ -1065,3 +1065,368 @@ footer a:visited
             font-size: 20px;
         }
 }
+
+                            @media all and (max-width: 768px)
+{
+
+    /* HEADER */
+
+    header
+    {
+        width: 100%;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+ 
+    header .container
+    {
+        flex-wrap: wrap;
+    }
+ 
+    #logo
+    {
+ 
+        order: 1;
+    }
+ 
+    header nav 
+    {
+        order: 3;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 1rem;
+    }
+ 
+    header ul 
+    {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    nav a:hover
+    {
+        border-top: none;
+    }
+
+    nav li:hover
+    {
+        border-bottom-color: #0065FC;
+    }
+ 
+    nav li 
+    {
+        border-top: none;
+        width: 50%;
+        text-align: center;
+        margin: 0;
+        border-bottom: 4px #F2F2F2 solid;
+        padding-bottom: 2rem;
+    }
+ 
+    .acco:hover, .acti:hover
+    {
+        color: #0065FC;
+    }
+ 
+    .inscription
+    {
+        order: 2;
+        width: 50%;
+        text-align: right;
+    }
+ 
+ 
+    /* Research */
+ 
+    .foundFilters
+    {
+        padding: 0.3rem;
+    }
+ 
+    .found
+    {
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+    }
+ 
+    .found h1
+    {
+        flex-wrap: wrap;
+        font-size: 1.2em;
+    }
+ 
+    .search
+    
+     {
+        width: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+     }
+ 
+     .search input
+     {
+        width: 70%;
+        height: auto;
+     }
+    
+     .mapMarker
+     {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: auto;
+     }
+ 
+    .searchIcon
+    {
+        width: 80px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 6px;
+    }
+ 
+    .fa-search
+    {
+        margin: auto;
+    }
+ 
+    .bouton
+    {
+        display: none;
+    }
+ 
+    /* Filters */
+    
+    
+     .filters
+     {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        margin-top: 0;
+     }
+ 
+     .filters h2
+     {
+        width: 100%;
+        padding-top: 5px;
+     }
+ 
+     .icon
+     {
+        margin: 0;
+        margin-right: 3rem;
+        margin-bottom: 0.5rem;
+     }
+ 
+        /* Popular */
+ 
+     .secondArticle
+     {
+        width: 100%;
+     }
+ 
+     .sectionPopular h2
+     {
+        padding-left: 1rem;
+     }
+ 
+     .sectionPopular
+     {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #F2F2F2;
+        max-width: 100%;
+        border-radius: unset;
+     }
+ 
+     .h2i
+     {
+        width: 100%;
+     }
+ 
+     .h2i i
+     {
+        margin-left: 30rem;
+     }
+ 
+     .picturesPopular
+     {
+        height: auto;
+        width: 100%
+     }
+
+     .picturesPopular h4
+     {
+        padding-left: 10rem;
+     }
+
+     .picturesPopular p 
+     {
+        padding-left: 9.7rem;
+     }
+
+     .extractPopular
+     {
+        width: 20%;
+     }
+
+     .starsPopular
+     {
+        padding-left: 1.1rem;
+        padding-top: 1.3rem;
+     }
+ 
+     /* Accomodation */
+ 
+     .accomodationPopular .container
+     {
+        flex-wrap: wrap;
+     }
+ 
+     article 
+     {
+        width: 100%;
+        order: 2;
+     }
+ 
+     .accomodationPopular
+     {
+        display: flex;
+        width: 100%;
+     }
+ 
+     .sectionAccomodation
+     {
+        background-color: unset;
+        margin-top: 3rem;
+     }
+ 
+     .sectionAccomodation h2 
+     {
+        padding: 0;
+        margin-bottom: 0.5rem;
+        margin-left: 1.4rem;
+     }
+ 
+     #accommodation
+     {
+        display: flex;
+        flex-flow: wrap;
+        max-width: 100%;
+     }
+ 
+     .picturesAccomodation
+     {
+        max-width: inherit;
+     }
+ 
+     .extractAccomodation
+     {
+        width: 320px;
+     }
+ 
+     .sectionAccomodation h3
+     {
+        margin-top: 1rem;
+        margin-left: 21rem;
+        padding: 0;
+     }
+ 
+     /* Activities */
+ 
+     .activitiesMarseille
+     {
+        padding-top: 4rem;
+        margin-left: 1rem;
+     }
+ 
+     #anchorActivities
+     {
+        padding-top: 0;
+        margin-left: 0.7rem;
+     }
+ 
+     .containerActivities
+     {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0.5rem;
+     }
+ 
+     .containerActivities .cards
+     {
+        margin-right: 15px;
+        margin-left: 7px;
+     }
+ 
+     .containerActivities img 
+     {
+        width: 220px;
+        height: 100px;
+        object-position: center;
+     }
+ 
+     .containerActivities .iB
+     {
+        object-position: initial;
+     }
+ 
+     /* Footer */
+ 
+     footer
+     {
+        width: 100%;
+     }
+ 
+     footer a:visited
+     {
+         color: black;
+     }
+ 
+     .allFooter 
+     {
+        margin-left: 1rem;
+     }
+ 
+     footer li 
+     {
+        font-size: 0.9em;
+     }
+ 
+     footer h2 
+     {
+        font-size: 28px;
+     }
+ 
+     #about ul 
+     {
+        padding: 0;
+     }
+ 
+     #ourAccomodations 
+     {
+        margin-left: 0;
+     }
+     #ourAccomodations ul
+     {
+        padding: 0;
+     }
+ 
+     #assist
+     {
+        margin-left: 0;
+     }
+ 
+     #assist ul
+     {
+        padding: 0;
+     }
+ }
+ 
