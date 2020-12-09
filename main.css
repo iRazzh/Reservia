@@ -123,7 +123,7 @@ nav a:hover, .inscription:hover
 
 .mapMarker
 {
-    width: 2em;
+    width: 3.5em;
     text-align: center;
     font-size: 0.9em;
 }
@@ -325,7 +325,7 @@ h4
     border: 3px solid white;
     background-color: white;
     border-radius: 10px;
-    max-width: 23%;
+    max-width: 25%;
     height: 100%;
     margin: 10px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
@@ -338,7 +338,7 @@ h4
 
 .extractAccomodation
 {
-    width: 100%;
+    width: 231px;
     height: 100px;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
@@ -354,7 +354,7 @@ h4
     background-color: #F2F2F2;
     max-width: 80%;
     border-radius: 10px 10px 10px 10px;
-    height: 97%;
+    height: 96.5%;
     margin-top: 20px;
 }
 
