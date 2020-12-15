@@ -72,7 +72,7 @@ nav ul
 
 nav li
 {
-    margin-right: 45px;
+    margin-right: 3rem;
 }
 
 nav a, .inscription
@@ -164,6 +164,7 @@ nav a:hover, .inscription:hover
 .filters
 {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 3rem;
 }
 
@@ -179,8 +180,7 @@ nav a:hover, .inscription:hover
     padding-right: 20px;
     width: fit-content;
     height: 35px;
-    margin-right: 10px;
-    margin-left: 50px;
+    margin-left: 3rem;
     font-weight: bold;
     transition: all 300ms;
 }
@@ -218,7 +218,7 @@ nav a:hover, .inscription:hover
 .infos
 {
     display: flex;
-    margin-top: 35px;
+    margin-top: 3rem;
 }
 
 .fa-info
@@ -314,7 +314,6 @@ h4
 
 #accomodation
 {
-    border: 1px blue transparent; /* Border test*/
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -350,7 +349,6 @@ h4
 {
     display: flex;
     flex-direction: column;
-    border: 1px red transparent; /* Border test */
     background-color: #F2F2F2;
     border-radius: 10px 10px 10px 10px;
     height: 96.5%;
@@ -381,7 +379,7 @@ h4
 
 .picturesPopular
 {
-    border: 5px white solid; /* border test */
+    border: 5px white solid;
     background-color: white;
     border-radius: 10px;
     margin: 3%;
@@ -391,7 +389,6 @@ h4
 
 .extractPopular
 {
-    border: 1px blue transparent;
     width: 25%;
     height: 90px;
     border-radius: 10px 0px 0px 10px; 
@@ -407,30 +404,34 @@ h4
 
 .picturesPopular p 
 {
-    border: 1px transparent maroon   ;
     margin: 5px;
     padding-left: 28%;
 }
 
 .price1
 {
-    border: 1px transparent black;
     font-size: 0.8em;
 }
 
 .starsPopular
 {
     display: flex;
-    padding-left: 15px;
-    padding-top: 29px;
+    padding-left: 1rem;
+    padding-top: 1.8rem;
 }
 
-.starsPopulars
+.starsPopular2
 {
-    border: 1px red transparent; /* border test */
     display: flex;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+}
+
+.starsPopular3
+{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1.8rem;
 }
 
 /* Third Section -> Activities */
@@ -476,7 +477,10 @@ h4
 
 .activitiesMarseille h2
 {
-    margin-top: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    font-size: 23px;
 }
 
 .activitiesMarseille .containerActivities
@@ -489,11 +493,10 @@ h4
 
 .activitiesMarseille .containerActivities .card 
 {
-    border: 1px transparent red;
 	background-color: white;
 	border-radius: 17px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
-    transform: scale(1);
+    transform: scale(0.95);
     transition: 300ms;
     width: 100%;
     position: relative;
@@ -509,7 +512,6 @@ h4
 {
     height: 100%;
     width: 100%;
-    border: 1px blue transparent;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
     box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
@@ -543,6 +545,7 @@ h4
     right: 0;
     background: white;
     padding: 1rem;
+    font-size: 15px;
 }
 
 /* Footer */
@@ -597,18 +600,91 @@ footer a:visited
 
                                 /* Media Queries */
 
+                            @media all and (max-width: 1024px)
+{
+
+    /* HEADER */ 
+
+    header
+    {
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    /* FOUND */ 
+
+    .foundFilters
+    {
+        margin-left: 1.5rem;
+    }
+
+    /* ACCOMODOATION */ 
+
+    article 
+    {
+        margin-left: 1rem;
+    }
+
+    /* POPULAR */
+
+    .secondArticle
+    {
+        width: 34%;
+        margin-left: 1rem;
+    }
+
+    .h2i i 
+    {
+        margin-left: 4rem;
+    }
+
+    /* ACTIVITIES */
+
+    .activitiesMarseille .containerActivities
+    {
+        margin-left: 1rem;
+    }
+
+    /* FOOTER */
+
+    footer
+    {
+        width: 100%;
+    }
+
+    .allFooter
+    {
+        margin-left: 0;
+    }
+}
+
+
+                            @media all and (max-width: 887px)
+{
+    /* POPULAR */
+
+    .starsPopular3
+    {
+        padding-top: 0.8rem;
+    }
+}
+
+
+                            @media all and (max-width: 871px)
+{
+    /* POPULAR */
+
+    .starsPopular
+    {
+        padding-top: 0.8rem;
+    }
+}
 
                             @media all and (max-width: 768px)
 {
 
     /* HEADER */
-
-    header
-    {
-        width: 100%;
-        padding: 0.5rem;
-        box-sizing: border-box;
-    }
  
     header .container
     {
@@ -675,6 +751,7 @@ footer a:visited
     .foundFilters
     {
         padding: 0.3rem;
+        margin-left: 0;
     }
  
     .found
@@ -762,6 +839,7 @@ footer a:visited
      .secondArticle
      {
         width: 100%;
+        margin-left: 0;
      }
  
      .sectionPopular h2
@@ -782,11 +860,8 @@ footer a:visited
      .h2i
      {
         width: 100%;
-     }
- 
-     .h2i i
-     {
-        margin-left: 30rem;
+        justify-content: space-between;
+        padding-right: 3rem;
      }
  
      .picturesPopular
@@ -798,12 +873,12 @@ footer a:visited
 
      .picturesPopular h4
      {
-        padding-left: 10rem;
+        padding-left: 23%;
      }
 
      .picturesPopular p 
      {
-        padding-left: 9.7rem;
+        padding-left: 22.5%;
      }
 
      .extractPopular
@@ -814,7 +889,19 @@ footer a:visited
      .starsPopular
      {
         padding-left: 1.1rem;
-        padding-top: 1.3rem;
+        padding-top: 1.8rem;
+     }
+
+     .starsPopular2
+     {
+        padding-left: 1.1rem;
+        padding-top: 1.8rem;
+     }
+
+     .starsPopular3
+     {
+        padding-left: 1.1rem;
+        padding-top: 1.8rem;
      }
  
      /* Accomodation */
@@ -828,6 +915,7 @@ footer a:visited
      {
         width: 100%;
         order: 2;
+        margin-left: 0;
      }
  
      .accomodationPopular
@@ -853,7 +941,7 @@ footer a:visited
      {
         display: flex;
         flex-flow: wrap;
-        max-width: 100%;
+        justify-content: space-evenly;
      }
  
      .picturesAccomodation
@@ -869,8 +957,8 @@ footer a:visited
      .sectionAccomodation h3
      {
         margin-top: 1rem;
-        margin-left: 21rem;
         padding: 0;
+        text-align: center;
      }
  
      /* Activities */
@@ -878,39 +966,35 @@ footer a:visited
      .activitiesMarseille
      {
         padding-top: 4rem;
-        margin-left: 1rem;
      }
- 
-     #anchorActivities
-     {
-        margin-left: 1.2rem;
-     }
- 
-     .containerActivities
+
+     .activitiesMarseille .containerActivities
      {
         display: flex;
         flex-wrap: wrap;
         margin-left: 0.5rem;
+        justify-content: center;
      }
  
-     .containerActivities .cards
+     .activitiesMarseille .containerActivities .card
      {
-        margin-right: 15px;
-        margin-left: 7px;
+        width: auto;
      }
- 
-     .containerActivities img 
+
+     .activitiesMarseille .containerActivities .card.bigCard .picture img
+     {
+        width: 220px;
+        height: 150px;
+        object-position: center;
+     }
+
+     .activitiesMarseille .containerActivities .card .picture img
      {
         width: 220px;
         height: 100px;
         object-position: center;
      }
- 
-     .containerActivities .iB
-     {
-        object-position: initial;
-     }
- 
+
      /* Footer */
  
      footer
@@ -993,19 +1077,19 @@ footer a:visited
 
         /* Popular */
 
-    .h2i i
+    .h2i
     {
-        margin-left: 11rem;
+        padding-right: 2rem;
     }
 
     .picturesPopular h4
     {
-        padding-left: 6rem;
+        padding-left: 24%;
     }
 
     .picturesPopular p 
     {
-        padding-left: 5.7rem;
+        padding-left: 23%;
     }
 
     /* Accomodation */
@@ -1018,25 +1102,33 @@ footer a:visited
     .sectionAccomodation h3
     {
         margin-left: 1.5rem;
+        text-align: unset;
     }
 
     /* Activities */
 
-    .activitiesMarseille
-    {
-        margin-left: 0.3rem;
-    }
-
     #anchorActivities
     {
-        padding-top: 0;
-        margin-left: 1.2rem;
+        margin-left: 2rem;
     }
 
-    .containerActivities img 
+    .activitiesMarseille h2 
     {
-        width: 385px;
-        height: 130px;
+        margin-bottom: 1rem;
+    }
+
+    .activitiesMarseille .containerActivities .card.bigCard .picture img
+    {
+       width: 415px;
+       height: 160px;
+       object-position: center;
+    }
+
+    .activitiesMarseille .containerActivities .card .picture img
+    {
+       width: 415px;
+       height: 160px;
+       object-position: center;
     }
 
     /* Footer */
@@ -1052,6 +1144,16 @@ footer a:visited
     {
         padding-top: 2rem;
     }
+
+    .allFooter li h2 
+    {
+        font-size: 2rem;
+    }
+
+    footer li 
+    {
+        font-size: 1rem;
+    }
 }
 
                             @media all and (max-width: 375px)
@@ -1061,14 +1163,24 @@ footer a:visited
 
         .icon
         {
-            margin-right: 2rem;
+            margin-right: 1rem;
         }
 
-        /* Popular */ 
+        /* POPULAR */
 
-        .h2i i
+        .picturesPopular h4 
         {
-            margin-left: 8rem;
+            padding-left: 25%;
+        }
+
+        .picturesPopular p 
+        {
+            padding-left: 24%;
+        }
+
+        .starsPopular2
+        {
+            padding-top: 0.8rem;
         }
 
         /* Accomodation */
@@ -1085,14 +1197,28 @@ footer a:visited
 
         /* Activities */
 
-        .containerActivities img 
+        .activitiesMarseille .containerActivities
         {
-            width: 340px;
-            height: 110px;
+            margin-left: 0;
+        }
+
+        .activitiesMarseille .containerActivities .card.bigCard .picture img
+        {
+           width: 380px;
+        }
+    
+        .activitiesMarseille .containerActivities .card .picture img
+        {
+           width: 380px;
         }
 
         /* Footer */
 
+        .allFooter li h2 
+        {
+            font-size: 1.7rem;
+        }
+        
         #about ul 
         {
             padding-top: 1rem;
@@ -1107,14 +1233,7 @@ footer a:visited
 
         .icon
         {
-            margin-right: 1rem;
-        }
-
-        /* Popular */ 
-
-        .h2i i
-        {
-            margin-left: 4rem;
+            margin-right: 5px;
         }
 
         /* Accomodation */
@@ -1126,13 +1245,22 @@ footer a:visited
 
         /* Activities */
 
-        .containerActivities img 
+        .activitiesMarseille .containerActivities .card.bigCard .picture img
         {
-            width: 280px;
+           width: 280px;
+        }
+    
+        .activitiesMarseille .containerActivities .card .picture img
+        {
+           width: 280px;
         }
 
         /* Footer */
 
+        .allFooter li h2 
+        {
+            font-size: 1.5rem;
+        }
         footer h2 
         {
             font-size: 20px;
