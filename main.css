@@ -183,6 +183,7 @@ nav a:hover, .inscription:hover
     margin-left: 3rem;
     font-weight: bold;
     transition: all 300ms;
+    margin-top: 5px;
 }
 
 .icon:hover
@@ -325,6 +326,7 @@ h4
     background-color: white;
     border-radius: 10px;
     max-width: 25%;
+    width: 100%;
     height: 100%;
     margin: 10px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
@@ -491,12 +493,16 @@ h4
     grid-gap: 2rem;
 }
 
+.activitiesMarseille .containerActivities a:visited
+{
+    color: black;
+}
+
 .activitiesMarseille .containerActivities .card 
 {
 	background-color: white;
 	border-radius: 17px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
-    transform: scale(0.95);
     transition: 300ms;
     width: 100%;
     position: relative;
@@ -519,7 +525,7 @@ h4
 
 .activitiesMarseille .containerActivities .card:hover
 {
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 .activitiesMarseille .containerActivities .card .picture 
@@ -947,6 +953,7 @@ footer a:visited
      .picturesAccomodation
      {
         max-width: inherit;
+        width: unset;
      }
  
      .extractAccomodation
