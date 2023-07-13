@@ -26,4 +26,3 @@ Deuxième projet du parcours "Développeur Web" chez OpenClassrooms. L'objectif 
 - Le site devra être comaptible avec les dernières versions de Chrome & Firefox 
 - Utiliser uniquement l'HTML5 & CSS3 pour réaliser ce projet (framework ou pré-compilateur interdit).
 - Versionner le code avec Git puis le déployer sur Github Pages.
-
